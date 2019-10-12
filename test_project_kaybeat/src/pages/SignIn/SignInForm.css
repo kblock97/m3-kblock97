@@ -1,0 +1,44 @@
+
+.submitButton {
+    border: 1px solid black;
+	    position: fixed;
+    top: 150;
+    left: 35%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 15pt;
+    width: 250px;
+    height: 25px;
+    margin-right: 0px;
+}
+
+.submitButton:disabled {
+    background-color: grey;
+    border-color: grey;
+}
+
+.inputBox1 {
+    border: 1px solid lightgrey;
+    font-size: 10pt;
+    position: fixed;
+    top: 150;
+    left: 35%;
+    width: 100px;
+    height: 20px;
+    text-indent: 5px;
+}
+
+.inputTextArea {
+    border: 1px solid lightgrey;
+    font-size: 10pt;
+    width: 100px;
+    height: 70px;
+    text-indent: 5px;
+}
+
+.formSectionTitle {
+    margin-top: 10px;
+	text-align: center;
+    font-size: 24pt;
+}
